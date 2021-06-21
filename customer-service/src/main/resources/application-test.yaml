@@ -1,0 +1,16 @@
+server:
+  port:  8082
+
+spring:
+  datasource:
+      url:  jdbc:postgresql://localhost:5432/Jeevitha
+      username:  postgres
+      password:  1234
+      driver-class-name:  org.postgresql.Driver
+  jpa:
+    properties:
+      hibernate:
+        default_schema :  public
+    hibernate:
+      ddl-auto:  update
+    show-sql:  true      
